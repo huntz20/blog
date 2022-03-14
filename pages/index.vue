@@ -22,13 +22,13 @@
       </nav>
       <div class="flex justify-center ">
         <a class="mr-4" href="https://twitter.com/farhanrahmadif" target="_blank">
-          <img src="/icon/Twitter White.svg" alt="Twitter Logo">
+          <img src="/icon/twitter-logo.svg" alt="Twitter Logo">
         </a>
         <a class="mr-4" href="https://www.linkedin.com/in/farhan-rahmadi-fajar-9173b0176/" target="_blank">
-          <img src="/icon/linkedin white.png" alt="Linkedin Logo">
+          <img src="/icon/linkedin-logo.png" alt="Linkedin Logo">
         </a>
         <a href="https://www.github.com/huntz20" target="_blank">
-          <img src="/icon/GitHub Logo.png" alt="Github Logo">
+          <img src="/icon/github-logo.png" alt="Github Logo">
         </a>
       </div>
     </div>
