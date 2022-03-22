@@ -4,6 +4,8 @@ const {size} = defineProps({
 })
 </script>
 <template>
-  <div class="bg-gray-400 text-center" :class="{'w-24 h-24': size === 'small', 'h-40 w-40': size === 'large'}">LOGO
-  </div>
+  <NuxtLink to="/">
+    <div class="bg-gray-400 text-center" :class="{'w-24 h-24': size === 'small', 'h-40 w-40': size === 'large'}">LOGO
+    </div>
+  </NuxtLink>
 </template>

@@ -10,10 +10,10 @@
         reading</p>
     </div>
     <nav class="text-center h-2/3 flex flex-col justify-center">
-      <NuxtLink to="/blog" class="text-white text-5xl transition hover:text-gray-800 duration-300 mb-6">
+      <NuxtLink to="/blog" class="text-white text-5xl transition hover:text-gray-800 duration-300 mb-6" active-class="text-slate-800">
         Blog
       </NuxtLink>
-      <NuxtLink to="/about-me" class="text-white text-5xl transition hover:text-gray-800 duration-300">
+      <NuxtLink to="/about-me" class="text-white text-5xl transition hover:text-gray-800 duration-300" active-class="text-slate-800">
         About Me
       </NuxtLink>
     </nav>

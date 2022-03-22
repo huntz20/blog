@@ -1,0 +1,80 @@
+.box-experience {
+    min-width: 150px;
+    height: 150px;
+    position: absolute;
+    color: white;
+    @apply rounded-sm;
+    @apply transition-all;
+    @apply duration-500;
+    animation: fade-in 1s;
+}
+
+.box-experience:nth-child(even) {
+    bottom: -20%;
+}
+
+.box-experience:nth-child(odd) {
+    top: 10px
+}
+
+.experience-indicator {
+    cursor: pointer;
+}
+
+.box-experience.coralis {
+    top: 10px;
+}
+
+.experience-indicator.barito {
+    left: 15%;
+}
+
+.box-experience.barito {
+    left: 15%;
+}
+
+.experience-indicator.allbest {
+    left: 35%;
+}
+
+.box-experience.allbest {
+    left: 35%;
+}
+
+.experience-indicator.sinbad {
+    left: 60%;
+}
+
+.box-experience.sinbad {
+    left: 60%;
+}
+
+.experience-indicator.da {
+    left: 100%;
+}
+
+.box-experience.da {
+    left: 78%;
+    top: 10px;
+}
+
+
+/*vertical timeline*/
+
+.vertical-timeline .box-experience {
+    min-width: 150px;
+    height: 150px;
+    position: relative;
+    color: white;
+    @apply rounded-sm;
+    @apply transition-all;
+    @apply duration-500;
+    animation: fade-in 1s;
+    left: 0 !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .horizontal-timeline{
+        display: none !important;
+    }
+}

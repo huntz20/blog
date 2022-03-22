@@ -1,15 +1,21 @@
+@import "about-me.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 .topbar-nav {
     position: fixed;
     transform: translateY(-10rem);
     transition: transform;
     transition-duration: 500ms;
 }
+
 .topbar-nav.active {
     transform: translateY(0);
 }
+
 .sidebar-nav {
     transform: translateX(-33.3vw);
     transition: transform;
@@ -25,27 +31,36 @@
     animation-name: fade-in;
 
 }
-.fade-in.first{
+
+.fade-in.first {
     animation-duration: 1s;
 }
-.fade-in.second{
+
+
+.fade-in.second {
     animation-duration: 1.5s;
 }
 
-.fade-in.third{
+.fade-in.third {
     animation-duration: 2s;
 }
 
+
 @keyframes fade-in {
-    0% {opacity: 0}
-    100% {opacity: 1}
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
 }
 
 
-@media screen and (max-width: 750px){
-    .topbar-nav{
+@media screen and (max-width: 750px) {
+    .topbar-nav {
         transform: translateX(0);
     }
+
     .sidebar-nav.active {
         transform: translateX(-33.3vw);
         width: 0;
