@@ -61,6 +61,11 @@
 
 /*vertical timeline*/
 
+.skill-list div{
+    min-width: 100px;
+    @apply text-xl
+}
+
 .vertical-timeline .box-experience {
     min-width: 150px;
     height: 150px;
