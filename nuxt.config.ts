@@ -1,9 +1,9 @@
 import {defineNuxtConfig} from 'nuxt3'
-import { resolve } from "pathe"
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
     meta: {
+        title: "Farhan Rahmadi Fajar",
         meta: [
             {name: "google-site-verification", content: "wd6m3gyfHR5kKImVpDO8XRe5gdE6X_tQIc7oM0t_MZM"}
         ],
@@ -22,4 +22,11 @@ export default defineNuxtConfig({
     css: [
         '@/assets/main.css',
     ],
+    publicRuntimeConfig: {
+        firebaseApiKey: process.env.FIREBASE_API_KEY,
+        firebaseAuthDomain: process.env.FIREBASE_AUTH_DOMAIN,
+        firebaseDatabaseURL: process.env.DATABASE_URL,
+        firebaseProjectId: process.env.PROJECT_ID,
+        firebaseStorageBucket: process.env.STORAGE_BUCKET,
+    },
 })

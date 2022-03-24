@@ -27,5 +27,8 @@ useMeta({
     <section class="mb-12">
       <AboutMeSkill/>
     </section>
+    <section class="mb-12">
+      <AboutMeEducation/>
+    </section>
   </div>
 </template>

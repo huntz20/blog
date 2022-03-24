@@ -1,8 +1,3 @@
-<script setup>
-useMeta({
-  title: 'Farhan Rahmadi Fajar'
-})
-</script>
 <template>
   <div class="font-serif text-4xl lg:text-6xl text-white flex h-screen flex-col  justify-center px-10">
     <div class="mb-12 fade-in first">I'm
