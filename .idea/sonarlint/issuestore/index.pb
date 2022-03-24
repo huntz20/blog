@@ -23,3 +23,5 @@ C
 assets/about-me.css,9/4/94d37cc99bdabae5329867a58599b1b8bb961718
 B
 tailwind.config.js,0/9/0918cbb76f2c44f223706cec9d31a32cd1177ce4
+B
+pages/about-me.vue,8/2/82d729abb5f5c192dc26654e80047966381091d5
